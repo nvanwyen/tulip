@@ -1,5 +1,5 @@
 //
-//  AppAlertBadgeManager.swift
+//  Badge.swift
 //  tulip
 //
 //  Created by Nicholas Van Wyen on 8/7/24.

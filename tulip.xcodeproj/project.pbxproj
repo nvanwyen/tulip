@@ -11,7 +11,7 @@
 		1184D5E22C63F23000E4585A /* PrayerEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184D5E12C63F23000E4585A /* PrayerEmptyView.swift */; };
 		1184D5E42C63FCBC00E4585A /* PrayerItemEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184D5E32C63FCBC00E4585A /* PrayerItemEdit.swift */; };
 		1184D5E62C6403E600E4585A /* PrayerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184D5E52C6403E600E4585A /* PrayerItemView.swift */; };
-		1184D5E82C6454E000E4585A /* AppAlertBadgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184D5E72C6454E000E4585A /* AppAlertBadgeManager.swift */; };
+		1184D5E82C6454E000E4585A /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184D5E72C6454E000E4585A /* Badge.swift */; };
 		119E46572C61C39000FDC1AB /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E46562C61C39000FDC1AB /* AppView.swift */; };
 		119E46592C61CC8100FDC1AB /* PrayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E46582C61CC8100FDC1AB /* PrayerView.swift */; };
 		119E465B2C624A8800FDC1AB /* DoctrineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E465A2C624A8800FDC1AB /* DoctrineView.swift */; };
@@ -24,35 +24,14 @@
 		11EA70D42C6020CC00211293 /* tulipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA70D32C6020CC00211293 /* tulipApp.swift */; };
 		11EA70D62C6020CC00211293 /* SermonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA70D52C6020CC00211293 /* SermonView.swift */; };
 		11EA70DA2C6020CE00211293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EA70D92C6020CE00211293 /* Assets.xcassets */; };
-		11EA70DD2C6020CE00211293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EA70DC2C6020CE00211293 /* Preview Assets.xcassets */; };
-		11EA70E72C6020CE00211293 /* tulipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA70E62C6020CE00211293 /* tulipTests.swift */; };
-		11EA70F12C6020CE00211293 /* tulipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA70F02C6020CE00211293 /* tulipUITests.swift */; };
-		11EA70F32C6020CE00211293 /* tulipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA70F22C6020CE00211293 /* tulipUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		11EA70E32C6020CE00211293 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11EA70C82C6020CC00211293 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 11EA70CF2C6020CC00211293;
-			remoteInfo = tulip;
-		};
-		11EA70ED2C6020CE00211293 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11EA70C82C6020CC00211293 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 11EA70CF2C6020CC00211293;
-			remoteInfo = tulip;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1184D5DD2C63D06A00E4585A /* SermonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SermonItemView.swift; sourceTree = "<group>"; };
 		1184D5E12C63F23000E4585A /* PrayerEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerEmptyView.swift; sourceTree = "<group>"; };
 		1184D5E32C63FCBC00E4585A /* PrayerItemEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerItemEdit.swift; sourceTree = "<group>"; };
 		1184D5E52C6403E600E4585A /* PrayerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerItemView.swift; sourceTree = "<group>"; };
-		1184D5E72C6454E000E4585A /* AppAlertBadgeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlertBadgeManager.swift; sourceTree = "<group>"; };
+		1184D5E72C6454E000E4585A /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		119E46562C61C39000FDC1AB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		119E46582C61CC8100FDC1AB /* PrayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerView.swift; sourceTree = "<group>"; };
 		119E465A2C624A8800FDC1AB /* DoctrineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctrineView.swift; sourceTree = "<group>"; };
@@ -66,30 +45,10 @@
 		11EA70D32C6020CC00211293 /* tulipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulipApp.swift; sourceTree = "<group>"; };
 		11EA70D52C6020CC00211293 /* SermonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SermonView.swift; sourceTree = "<group>"; };
 		11EA70D92C6020CE00211293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11EA70DC2C6020CE00211293 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		11EA70E22C6020CE00211293 /* tulipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11EA70E62C6020CE00211293 /* tulipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulipTests.swift; sourceTree = "<group>"; };
-		11EA70EC2C6020CE00211293 /* tulipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11EA70F02C6020CE00211293 /* tulipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulipUITests.swift; sourceTree = "<group>"; };
-		11EA70F22C6020CE00211293 /* tulipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulipUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		11EA70CD2C6020CC00211293 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11EA70DF2C6020CE00211293 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11EA70E92C6020CE00211293 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -102,6 +61,7 @@
 		119E465E2C62801B00FDC1AB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1184D5E72C6454E000E4585A /* Badge.swift */,
 				119E465C2C624B1A00FDC1AB /* Item.swift */,
 				119E46692C62C87B00FDC1AB /* Data.swift */,
 				119E46672C62B9D700FDC1AB /* Sample.swift */,
@@ -155,8 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				11EA70D22C6020CC00211293 /* tulip */,
-				11EA70E52C6020CE00211293 /* tulipTests */,
-				11EA70EF2C6020CE00211293 /* tulipUITests */,
 				11EA70D12C6020CC00211293 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,8 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				11EA70D02C6020CC00211293 /* tulip.app */,
-				11EA70E22C6020CE00211293 /* tulipTests.xctest */,
-				11EA70EC2C6020CE00211293 /* tulipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,35 +134,8 @@
 				119E465E2C62801B00FDC1AB /* Resources */,
 				11EA70D32C6020CC00211293 /* tulipApp.swift */,
 				11EA70D92C6020CE00211293 /* Assets.xcassets */,
-				11EA70DB2C6020CE00211293 /* Preview Content */,
-				1184D5E72C6454E000E4585A /* AppAlertBadgeManager.swift */,
 			);
 			path = tulip;
-			sourceTree = "<group>";
-		};
-		11EA70DB2C6020CE00211293 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				11EA70DC2C6020CE00211293 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		11EA70E52C6020CE00211293 /* tulipTests */ = {
-			isa = PBXGroup;
-			children = (
-				11EA70E62C6020CE00211293 /* tulipTests.swift */,
-			);
-			path = tulipTests;
-			sourceTree = "<group>";
-		};
-		11EA70EF2C6020CE00211293 /* tulipUITests */ = {
-			isa = PBXGroup;
-			children = (
-				11EA70F02C6020CE00211293 /* tulipUITests.swift */,
-				11EA70F22C6020CE00211293 /* tulipUITestsLaunchTests.swift */,
-			);
-			path = tulipUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,42 +158,6 @@
 			productReference = 11EA70D02C6020CC00211293 /* tulip.app */;
 			productType = "com.apple.product-type.application";
 		};
-		11EA70E12C6020CE00211293 /* tulipTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11EA70F92C6020CE00211293 /* Build configuration list for PBXNativeTarget "tulipTests" */;
-			buildPhases = (
-				11EA70DE2C6020CE00211293 /* Sources */,
-				11EA70DF2C6020CE00211293 /* Frameworks */,
-				11EA70E02C6020CE00211293 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				11EA70E42C6020CE00211293 /* PBXTargetDependency */,
-			);
-			name = tulipTests;
-			productName = tulipTests;
-			productReference = 11EA70E22C6020CE00211293 /* tulipTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		11EA70EB2C6020CE00211293 /* tulipUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11EA70FC2C6020CE00211293 /* Build configuration list for PBXNativeTarget "tulipUITests" */;
-			buildPhases = (
-				11EA70E82C6020CE00211293 /* Sources */,
-				11EA70E92C6020CE00211293 /* Frameworks */,
-				11EA70EA2C6020CE00211293 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				11EA70EE2C6020CE00211293 /* PBXTargetDependency */,
-			);
-			name = tulipUITests;
-			productName = tulipUITests;
-			productReference = 11EA70EC2C6020CE00211293 /* tulipUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -277,14 +170,6 @@
 				TargetAttributes = {
 					11EA70CF2C6020CC00211293 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					11EA70E12C6020CE00211293 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 11EA70CF2C6020CC00211293;
-					};
-					11EA70EB2C6020CE00211293 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 11EA70CF2C6020CC00211293;
 					};
 				};
 			};
@@ -302,8 +187,6 @@
 			projectRoot = "";
 			targets = (
 				11EA70CF2C6020CC00211293 /* tulip */,
-				11EA70E12C6020CE00211293 /* tulipTests */,
-				11EA70EB2C6020CE00211293 /* tulipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,22 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EA70DD2C6020CE00211293 /* Preview Assets.xcassets in Resources */,
 				11EA70DA2C6020CE00211293 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11EA70E02C6020CE00211293 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11EA70EA2C6020CE00211293 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,44 +219,14 @@
 				11EA70D42C6020CC00211293 /* tulipApp.swift in Sources */,
 				119E466C2C62E0D600FDC1AB /* AcrosticItemModel.swift in Sources */,
 				119E46592C61CC8100FDC1AB /* PrayerView.swift in Sources */,
-				1184D5E82C6454E000E4585A /* AppAlertBadgeManager.swift in Sources */,
+				1184D5E82C6454E000E4585A /* Badge.swift in Sources */,
 				1184D5E22C63F23000E4585A /* PrayerEmptyView.swift in Sources */,
 				1184D5E42C63FCBC00E4585A /* PrayerItemEdit.swift in Sources */,
 				1184D5E62C6403E600E4585A /* PrayerItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11EA70DE2C6020CE00211293 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11EA70E72C6020CE00211293 /* tulipTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11EA70E82C6020CE00211293 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11EA70F12C6020CE00211293 /* tulipUITests.swift in Sources */,
-				11EA70F32C6020CE00211293 /* tulipUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		11EA70E42C6020CE00211293 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11EA70CF2C6020CC00211293 /* tulip */;
-			targetProxy = 11EA70E32C6020CE00211293 /* PBXContainerItemProxy */;
-		};
-		11EA70EE2C6020CE00211293 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11EA70CF2C6020CC00211293 /* tulip */;
-			targetProxy = 11EA70ED2C6020CE00211293 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		11EA70F42C6020CE00211293 /* Debug */ = {
@@ -568,78 +406,6 @@
 			};
 			name = Release;
 		};
-		11EA70FA2C6020CE00211293 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SovereignGrace.tulipTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tulip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tulip";
-			};
-			name = Debug;
-		};
-		11EA70FB2C6020CE00211293 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SovereignGrace.tulipTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tulip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tulip";
-			};
-			name = Release;
-		};
-		11EA70FD2C6020CE00211293 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SovereignGrace.tulipUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = tulip;
-			};
-			name = Debug;
-		};
-		11EA70FE2C6020CE00211293 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SovereignGrace.tulipUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = tulip;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -657,24 +423,6 @@
 			buildConfigurations = (
 				11EA70F72C6020CE00211293 /* Debug */,
 				11EA70F82C6020CE00211293 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		11EA70F92C6020CE00211293 /* Build configuration list for PBXNativeTarget "tulipTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11EA70FA2C6020CE00211293 /* Debug */,
-				11EA70FB2C6020CE00211293 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		11EA70FC2C6020CE00211293 /* Build configuration list for PBXNativeTarget "tulipUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11EA70FD2C6020CE00211293 /* Debug */,
-				11EA70FE2C6020CE00211293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
