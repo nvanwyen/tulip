@@ -90,4 +90,4 @@ Church and talk to them. If you would like prayer, for any reason, let me know
 so that I can lift you up.
 
 And, if you find yourself in the Jacksonville Fl area, please come by and visit.
-We would love to meet you and talk to you.
+The people of Sovereign Grace Family Church would love to meet and talk to you.
