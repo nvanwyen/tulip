@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1184D5DE2C63D06A00E4585A /* SermonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184D5DD2C63D06A00E4585A /* SermonItemView.swift */; };
+		1184D5E22C63F23000E4585A /* PrayerEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184D5E12C63F23000E4585A /* PrayerEmptyView.swift */; };
+		1184D5E42C63FCBC00E4585A /* PrayerItemEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184D5E32C63FCBC00E4585A /* PrayerItemEdit.swift */; };
+		1184D5E62C6403E600E4585A /* PrayerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184D5E52C6403E600E4585A /* PrayerItemView.swift */; };
+		1184D5E82C6454E000E4585A /* AppAlertBadgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184D5E72C6454E000E4585A /* AppAlertBadgeManager.swift */; };
+		119E46572C61C39000FDC1AB /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E46562C61C39000FDC1AB /* AppView.swift */; };
+		119E46592C61CC8100FDC1AB /* PrayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E46582C61CC8100FDC1AB /* PrayerView.swift */; };
+		119E465B2C624A8800FDC1AB /* DoctrineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E465A2C624A8800FDC1AB /* DoctrineView.swift */; };
+		119E465D2C624B1A00FDC1AB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E465C2C624B1A00FDC1AB /* Item.swift */; };
+		119E46602C629A9100FDC1AB /* AcrosticItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E465F2C629A9100FDC1AB /* AcrosticItemView.swift */; };
+		119E46622C62A17F00FDC1AB /* AcrosticDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E46612C62A17F00FDC1AB /* AcrosticDetailView.swift */; };
+		119E46682C62B9D700FDC1AB /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E46672C62B9D700FDC1AB /* Sample.swift */; };
+		119E466A2C62C87B00FDC1AB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E46692C62C87B00FDC1AB /* Data.swift */; };
+		119E466C2C62E0D600FDC1AB /* AcrosticItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E466B2C62E0D600FDC1AB /* AcrosticItemModel.swift */; };
+		11EA70D42C6020CC00211293 /* tulipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA70D32C6020CC00211293 /* tulipApp.swift */; };
+		11EA70D62C6020CC00211293 /* SermonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA70D52C6020CC00211293 /* SermonView.swift */; };
+		11EA70DA2C6020CE00211293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EA70D92C6020CE00211293 /* Assets.xcassets */; };
+		11EA70DD2C6020CE00211293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EA70DC2C6020CE00211293 /* Preview Assets.xcassets */; };
+		11EA70E72C6020CE00211293 /* tulipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA70E62C6020CE00211293 /* tulipTests.swift */; };
+		11EA70F12C6020CE00211293 /* tulipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA70F02C6020CE00211293 /* tulipUITests.swift */; };
+		11EA70F32C6020CE00211293 /* tulipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA70F22C6020CE00211293 /* tulipUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11EA70E32C6020CE00211293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11EA70C82C6020CC00211293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11EA70CF2C6020CC00211293;
+			remoteInfo = tulip;
+		};
+		11EA70ED2C6020CE00211293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11EA70C82C6020CC00211293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11EA70CF2C6020CC00211293;
+			remoteInfo = tulip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1184D5DD2C63D06A00E4585A /* SermonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SermonItemView.swift; sourceTree = "<group>"; };
+		1184D5E12C63F23000E4585A /* PrayerEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerEmptyView.swift; sourceTree = "<group>"; };
+		1184D5E32C63FCBC00E4585A /* PrayerItemEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerItemEdit.swift; sourceTree = "<group>"; };
+		1184D5E52C6403E600E4585A /* PrayerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerItemView.swift; sourceTree = "<group>"; };
+		1184D5E72C6454E000E4585A /* AppAlertBadgeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlertBadgeManager.swift; sourceTree = "<group>"; };
+		119E46562C61C39000FDC1AB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		119E46582C61CC8100FDC1AB /* PrayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerView.swift; sourceTree = "<group>"; };
+		119E465A2C624A8800FDC1AB /* DoctrineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctrineView.swift; sourceTree = "<group>"; };
+		119E465C2C624B1A00FDC1AB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		119E465F2C629A9100FDC1AB /* AcrosticItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcrosticItemView.swift; sourceTree = "<group>"; };
+		119E46612C62A17F00FDC1AB /* AcrosticDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcrosticDetailView.swift; sourceTree = "<group>"; };
+		119E46672C62B9D700FDC1AB /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		119E46692C62C87B00FDC1AB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		119E466B2C62E0D600FDC1AB /* AcrosticItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcrosticItemModel.swift; sourceTree = "<group>"; };
+		11EA70D02C6020CC00211293 /* tulip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tulip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EA70D32C6020CC00211293 /* tulipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulipApp.swift; sourceTree = "<group>"; };
+		11EA70D52C6020CC00211293 /* SermonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SermonView.swift; sourceTree = "<group>"; };
+		11EA70D92C6020CE00211293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11EA70DC2C6020CE00211293 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11EA70E22C6020CE00211293 /* tulipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EA70E62C6020CE00211293 /* tulipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulipTests.swift; sourceTree = "<group>"; };
+		11EA70EC2C6020CE00211293 /* tulipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EA70F02C6020CE00211293 /* tulipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulipUITests.swift; sourceTree = "<group>"; };
+		11EA70F22C6020CE00211293 /* tulipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11EA70CD2C6020CC00211293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA70DF2C6020CE00211293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA70E92C6020CE00211293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119E465E2C62801B00FDC1AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				119E465C2C624B1A00FDC1AB /* Item.swift */,
+				119E46692C62C87B00FDC1AB /* Data.swift */,
+				119E46672C62B9D700FDC1AB /* Sample.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		119E46632C62A3E400FDC1AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				119E46562C61C39000FDC1AB /* AppView.swift */,
+				119E46642C62A3F500FDC1AB /* Doctrine */,
+				119E46652C62A3FE00FDC1AB /* Prayers */,
+				119E46662C62A40B00FDC1AB /* Sermons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		119E46642C62A3F500FDC1AB /* Doctrine */ = {
+			isa = PBXGroup;
+			children = (
+				119E465A2C624A8800FDC1AB /* DoctrineView.swift */,
+				119E466B2C62E0D600FDC1AB /* AcrosticItemModel.swift */,
+				119E465F2C629A9100FDC1AB /* AcrosticItemView.swift */,
+				119E46612C62A17F00FDC1AB /* AcrosticDetailView.swift */,
+			);
+			path = Doctrine;
+			sourceTree = "<group>";
+		};
+		119E46652C62A3FE00FDC1AB /* Prayers */ = {
+			isa = PBXGroup;
+			children = (
+				119E46582C61CC8100FDC1AB /* PrayerView.swift */,
+				1184D5E52C6403E600E4585A /* PrayerItemView.swift */,
+				1184D5E32C63FCBC00E4585A /* PrayerItemEdit.swift */,
+				1184D5E12C63F23000E4585A /* PrayerEmptyView.swift */,
+			);
+			path = Prayers;
+			sourceTree = "<group>";
+		};
+		119E46662C62A40B00FDC1AB /* Sermons */ = {
+			isa = PBXGroup;
+			children = (
+				11EA70D52C6020CC00211293 /* SermonView.swift */,
+				1184D5DD2C63D06A00E4585A /* SermonItemView.swift */,
+			);
+			path = Sermons;
+			sourceTree = "<group>";
+		};
+		11EA70C72C6020CC00211293 = {
+			isa = PBXGroup;
+			children = (
+				11EA70D22C6020CC00211293 /* tulip */,
+				11EA70E52C6020CE00211293 /* tulipTests */,
+				11EA70EF2C6020CE00211293 /* tulipUITests */,
+				11EA70D12C6020CC00211293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11EA70D12C6020CC00211293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11EA70D02C6020CC00211293 /* tulip.app */,
+				11EA70E22C6020CE00211293 /* tulipTests.xctest */,
+				11EA70EC2C6020CE00211293 /* tulipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11EA70D22C6020CC00211293 /* tulip */ = {
+			isa = PBXGroup;
+			children = (
+				119E46632C62A3E400FDC1AB /* Views */,
+				119E465E2C62801B00FDC1AB /* Resources */,
+				11EA70D32C6020CC00211293 /* tulipApp.swift */,
+				11EA70D92C6020CE00211293 /* Assets.xcassets */,
+				11EA70DB2C6020CE00211293 /* Preview Content */,
+				1184D5E72C6454E000E4585A /* AppAlertBadgeManager.swift */,
+			);
+			path = tulip;
+			sourceTree = "<group>";
+		};
+		11EA70DB2C6020CE00211293 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11EA70DC2C6020CE00211293 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11EA70E52C6020CE00211293 /* tulipTests */ = {
+			isa = PBXGroup;
+			children = (
+				11EA70E62C6020CE00211293 /* tulipTests.swift */,
+			);
+			path = tulipTests;
+			sourceTree = "<group>";
+		};
+		11EA70EF2C6020CE00211293 /* tulipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11EA70F02C6020CE00211293 /* tulipUITests.swift */,
+				11EA70F22C6020CE00211293 /* tulipUITestsLaunchTests.swift */,
+			);
+			path = tulipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11EA70CF2C6020CC00211293 /* tulip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EA70F62C6020CE00211293 /* Build configuration list for PBXNativeTarget "tulip" */;
+			buildPhases = (
+				11EA70CC2C6020CC00211293 /* Sources */,
+				11EA70CD2C6020CC00211293 /* Frameworks */,
+				11EA70CE2C6020CC00211293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tulip;
+			productName = tulip;
+			productReference = 11EA70D02C6020CC00211293 /* tulip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11EA70E12C6020CE00211293 /* tulipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EA70F92C6020CE00211293 /* Build configuration list for PBXNativeTarget "tulipTests" */;
+			buildPhases = (
+				11EA70DE2C6020CE00211293 /* Sources */,
+				11EA70DF2C6020CE00211293 /* Frameworks */,
+				11EA70E02C6020CE00211293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EA70E42C6020CE00211293 /* PBXTargetDependency */,
+			);
+			name = tulipTests;
+			productName = tulipTests;
+			productReference = 11EA70E22C6020CE00211293 /* tulipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11EA70EB2C6020CE00211293 /* tulipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EA70FC2C6020CE00211293 /* Build configuration list for PBXNativeTarget "tulipUITests" */;
+			buildPhases = (
+				11EA70E82C6020CE00211293 /* Sources */,
+				11EA70E92C6020CE00211293 /* Frameworks */,
+				11EA70EA2C6020CE00211293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EA70EE2C6020CE00211293 /* PBXTargetDependency */,
+			);
+			name = tulipUITests;
+			productName = tulipUITests;
+			productReference = 11EA70EC2C6020CE00211293 /* tulipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11EA70C82C6020CC00211293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					11EA70CF2C6020CC00211293 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					11EA70E12C6020CE00211293 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 11EA70CF2C6020CC00211293;
+					};
+					11EA70EB2C6020CE00211293 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 11EA70CF2C6020CC00211293;
+					};
+				};
+			};
+			buildConfigurationList = 11EA70CB2C6020CC00211293 /* Build configuration list for PBXProject "tulip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11EA70C72C6020CC00211293;
+			productRefGroup = 11EA70D12C6020CC00211293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11EA70CF2C6020CC00211293 /* tulip */,
+				11EA70E12C6020CE00211293 /* tulipTests */,
+				11EA70EB2C6020CE00211293 /* tulipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11EA70CE2C6020CC00211293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EA70DD2C6020CE00211293 /* Preview Assets.xcassets in Resources */,
+				11EA70DA2C6020CE00211293 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA70E02C6020CE00211293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA70EA2C6020CE00211293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11EA70CC2C6020CC00211293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119E465D2C624B1A00FDC1AB /* Item.swift in Sources */,
+				1184D5DE2C63D06A00E4585A /* SermonItemView.swift in Sources */,
+				11EA70D62C6020CC00211293 /* SermonView.swift in Sources */,
+				119E46572C61C39000FDC1AB /* AppView.swift in Sources */,
+				119E46602C629A9100FDC1AB /* AcrosticItemView.swift in Sources */,
+				119E466A2C62C87B00FDC1AB /* Data.swift in Sources */,
+				119E465B2C624A8800FDC1AB /* DoctrineView.swift in Sources */,
+				119E46682C62B9D700FDC1AB /* Sample.swift in Sources */,
+				119E46622C62A17F00FDC1AB /* AcrosticDetailView.swift in Sources */,
+				11EA70D42C6020CC00211293 /* tulipApp.swift in Sources */,
+				119E466C2C62E0D600FDC1AB /* AcrosticItemModel.swift in Sources */,
+				119E46592C61CC8100FDC1AB /* PrayerView.swift in Sources */,
+				1184D5E82C6454E000E4585A /* AppAlertBadgeManager.swift in Sources */,
+				1184D5E22C63F23000E4585A /* PrayerEmptyView.swift in Sources */,
+				1184D5E42C63FCBC00E4585A /* PrayerItemEdit.swift in Sources */,
+				1184D5E62C6403E600E4585A /* PrayerItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA70DE2C6020CE00211293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EA70E72C6020CE00211293 /* tulipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA70E82C6020CE00211293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EA70F12C6020CE00211293 /* tulipUITests.swift in Sources */,
+				11EA70F32C6020CE00211293 /* tulipUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11EA70E42C6020CE00211293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11EA70CF2C6020CC00211293 /* tulip */;
+			targetProxy = 11EA70E32C6020CE00211293 /* PBXContainerItemProxy */;
+		};
+		11EA70EE2C6020CE00211293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11EA70CF2C6020CC00211293 /* tulip */;
+			targetProxy = 11EA70ED2C6020CE00211293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11EA70F42C6020CE00211293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11EA70F52C6020CE00211293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11EA70F72C6020CE00211293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tulip/Preview Content\"";
+				DEVELOPMENT_TEAM = TDXQD99DV2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SovereignGrace.tulip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11EA70F82C6020CE00211293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tulip/Preview Content\"";
+				DEVELOPMENT_TEAM = TDXQD99DV2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SovereignGrace.tulip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11EA70FA2C6020CE00211293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SovereignGrace.tulipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tulip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tulip";
+			};
+			name = Debug;
+		};
+		11EA70FB2C6020CE00211293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SovereignGrace.tulipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tulip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tulip";
+			};
+			name = Release;
+		};
+		11EA70FD2C6020CE00211293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SovereignGrace.tulipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tulip;
+			};
+			name = Debug;
+		};
+		11EA70FE2C6020CE00211293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SovereignGrace.tulipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tulip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11EA70CB2C6020CC00211293 /* Build configuration list for PBXProject "tulip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EA70F42C6020CE00211293 /* Debug */,
+				11EA70F52C6020CE00211293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EA70F62C6020CE00211293 /* Build configuration list for PBXNativeTarget "tulip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EA70F72C6020CE00211293 /* Debug */,
+				11EA70F82C6020CE00211293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EA70F92C6020CE00211293 /* Build configuration list for PBXNativeTarget "tulipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EA70FA2C6020CE00211293 /* Debug */,
+				11EA70FB2C6020CE00211293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EA70FC2C6020CE00211293 /* Build configuration list for PBXNativeTarget "tulipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EA70FD2C6020CE00211293 /* Debug */,
+				11EA70FE2C6020CE00211293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11EA70C82C6020CC00211293 /* Project object */;
+}

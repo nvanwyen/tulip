@@ -1,0 +1,16 @@
+#!/bin/bash
+
+dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
+
+if [[ -f ${dir}/tulip/VERSION ]] ; then
+
+    echo $(head -n 1 ${dir}/tulip/VERSION)
+
+else
+
+    >&2 echo "Cannot find version file!"
+    exit 1
+
+fi
+
+exit 0
