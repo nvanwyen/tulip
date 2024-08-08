@@ -1,7 +1,7 @@
 # <img src="assets/tulip.jpg" alt="tulip" width="25"/> T.U.L.I.P
 The acrostic: Total depravity, Unconditional election, Limited atonement,
 Irresistible grace, and the Perseverance of the Saints is shorthand for what is
-known as the Five points of Calvinisum or The Doctrines of Grace
+known as the Five points of Calvinism or The Doctrines of Grace
 
 This application does not have any advertisement, or sponsors. It does not save
 your information on-line, nor send any information to a third party. All prayer
