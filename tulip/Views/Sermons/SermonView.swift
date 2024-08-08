@@ -24,7 +24,7 @@ struct SermonView: View {
             .navigationTitle("🎧 Sermons")
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
-                    Link("Learn more", destination: URL(string: "https://www.crcna.org/welcome/beliefs/confessions/canons-dort#toc-conclusion-to-top")!)
+                    Link("More sermons", destination: URL(string: "https://sgfcjax.org/sermons/")!)
                 }
             }
         }

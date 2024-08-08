@@ -22,6 +22,7 @@ struct PrayerEmptyView: View {
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
                     .foregroundColor(.secondary)
+                    .padding()
                 
                 //
                 Image("prayer-chart")
@@ -32,7 +33,17 @@ struct PrayerEmptyView: View {
                     }
                     .cornerRadius(12)
                     .padding()
-           }
+
+                //
+                Text( "Press the + above to start")
+                    .font(.caption)
+                    .fontWeight(.semibold)
+                    .italic()
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.secondary)
+                    .padding()
+                
+            }
             .offset(y: -61)
         }
     }
