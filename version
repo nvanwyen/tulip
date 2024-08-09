@@ -1,10 +1,11 @@
 #!/bin/bash
 
 dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
+fil=${dir}/tulip.xcodeproj/project.pbxproj
 
-if [[ -f ${dir}/tulip/VERSION ]] ; then
+if [[ -f ${fil} ]] ; then
 
-    echo $(head -n 1 ${dir}/tulip/VERSION)
+    echo "v$(grep MARKETING_VERSION ${fil} | awk '{print $3}' | sed 's/;//g' | head -n 1)"
 
 else
 
