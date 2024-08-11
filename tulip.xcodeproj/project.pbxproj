@@ -131,11 +131,11 @@
 		11EA70D22C6020CC00211293 /* tulip */ = {
 			isa = PBXGroup;
 			children = (
-				112AFA7A2C66B693005CBBCB /* Info.plist */,
 				119E46632C62A3E400FDC1AB /* Views */,
 				119E465E2C62801B00FDC1AB /* Resources */,
 				11EA70D32C6020CC00211293 /* tulipApp.swift */,
 				11EA70D92C6020CE00211293 /* Assets.xcassets */,
+				112AFA7A2C66B693005CBBCB /* Info.plist */,
 			);
 			path = tulip;
 			sourceTree = "<group>";
