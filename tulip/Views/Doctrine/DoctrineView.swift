@@ -32,7 +32,10 @@ struct DoctrineView: View {
             }
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
-                    Link("Learn more", destination: URL(string: "https://www.crcna.org/welcome/beliefs/confessions/canons-dort#toc-conclusion-to-top")!)
+                    Link("Canons of Dort", destination: URL(string: "https://www.crcna.org/welcome/beliefs/confessions/canons-dort#toc-conclusion-to-top")!)
+                }
+                ToolbarItemGroup(placement: .bottomBar) {
+                    Link("Expository focus", destination: URL(string: "https://www.youtube.com/playlist?list=PLtFxpnZIgB5Ak6HYcifcV7ulREorKDjYN")!)
                 }
             }
         }

@@ -24,7 +24,9 @@ struct SermonView: View {
             .navigationTitle("🎧 Sermons")
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
-                    Link("More sermons", destination: URL(string: "https://sgfcjax.org/sermons/")!)
+                    Link("More sermons", destination: URL(string: "https://www.youtube.com/@SGFCJax"
+                                                               // "https://sgfcjax.org/sermons/"
+                                                         )!)
                 }
             }
         }
@@ -34,4 +36,5 @@ struct SermonView: View {
 
 #Preview {
     SermonView()
+        .preferredColorScheme(.dark)
 }

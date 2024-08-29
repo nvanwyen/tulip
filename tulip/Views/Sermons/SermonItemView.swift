@@ -37,4 +37,5 @@ struct SermonItemView: View {
 
 #Preview {
     SermonItemView(sermon: Sample.sermon)
+        .preferredColorScheme(.dark)
 }

@@ -40,10 +40,10 @@ struct AcrosticDetailView: View {
                 .font(.body)
                 .padding(.horizontal)
             
-            //
+            //http
             List {
                 //
-                Text("📖 References")
+                Text("📖 More references")
                 //
                 ForEach(reference(type: acrostic.type)) { scripture in
                     Link(scripture.title(), destination: URL(string: scripture.esv())!)
@@ -56,4 +56,5 @@ struct AcrosticDetailView: View {
 
 #Preview {
     AcrosticDetailView(acrostic: Sample.acrostic, showing: .constant(false))
+        .preferredColorScheme(.dark)
 }

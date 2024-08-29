@@ -60,4 +60,5 @@ struct PrayerItemView: View {
 
 #Preview {
     PrayerItemView(prayer: Sample.prayer)
+        .preferredColorScheme(.dark)
 }

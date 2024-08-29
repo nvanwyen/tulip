@@ -66,4 +66,5 @@ struct PrayerView: View {
 #Preview {
     PrayerView()
         .modelContainer(for: Prayer.self, inMemory: true)
+        .preferredColorScheme(.dark)
 }

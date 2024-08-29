@@ -74,4 +74,5 @@ struct VAcrosticItemView: View {
 //
 #Preview {
     AcrosticItemView(acrostic: Sample.acrostic, horizontal: .constant(true))
+        .preferredColorScheme(.dark)
 }

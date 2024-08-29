@@ -72,7 +72,8 @@ struct PrayerItemEdit: View {
         //
         var body: some View {
             PrayerItemEdit(prayer: prayer)
-        }
+                .preferredColorScheme(.dark)
+       }
     }
     //
     return Preview()

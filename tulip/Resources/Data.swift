@@ -195,31 +195,41 @@ struct References {
                pastor: "Dr. M. Keith Foskey",
                church: "Sovereign Grace Family Church",
                image:  "sovereign_grace_sermon_audio",
-               link:   "https://www.sermonaudio.com/playpopup.asp?SID=82512053219"),
+               link:   "https://www.youtube.com/watch?v=du3WCZVJoCo&list=PLtFxpnZIgB5Ak6HYcifcV7ulREorKDjYN&index=1"
+                     // "https://www.sermonaudio.com/playpopup.asp?SID=82512053219"
+               ),
         //
         Sermon(title:  "Unconditional Election",
                pastor: "Dr. M. Keith Foskey",
                church: "Sovereign Grace Family Church",
                image:  "sovereign_grace_sermon_audio",
-               link:   "https://www.sermonaudio.com/playpopup.asp?SID=718212346498188"),
+               link:   "https://www.youtube.com/watch?v=qWZybYD1pcA&list=PLtFxpnZIgB5Ak6HYcifcV7ulREorKDjYN&index=2"
+                    // "https://www.sermonaudio.com/playpopup.asp?SID=718212346498188"
+               ),
         //
         Sermon(title:  "Limited Atonement",
                pastor: "Dr. M. Keith Foskey",
                church: "Sovereign Grace Family Church",
                image:  "sovereign_grace_sermon_audio",
-               link:   "https://www.sermonaudio.com/playpopup.asp?SID=42201531446"),
+               link:   "https://www.youtube.com/watch?v=i1pKT65a9TQ&list=PLtFxpnZIgB5Ak6HYcifcV7ulREorKDjYN&index=3"
+                    // "https://www.sermonaudio.com/playpopup.asp?SID=42201531446"
+              ),
         //
         Sermon(title:  "Irresistible Grace",
                pastor: "Dr. M. Keith Foskey",
                church: "Sovereign Grace Family Church",
                image:  "sovereign_grace_sermon_audio",
-               link:   "https://www.sermonaudio.com/playpopup.asp?SID=72320142117029"),
+               link:   "https://www.youtube.com/watch?v=i1pKT65a9TQ&list=PLtFxpnZIgB5Ak6HYcifcV7ulREorKDjYN&index=4"
+                    // "https://www.sermonaudio.com/playpopup.asp?SID=72320142117029"
+               ),
         //
         Sermon(title:  "Perseverance of the Saints",
                pastor: "Dr. M. Keith Foskey",
                church: "Sovereign Grace Family Church",
                image:  "sovereign_grace_sermon_audio",
-               link:   "https://www.sermonaudio.com/playpopup.asp?SID=89212233183000")
+               link:   "https://www.youtube.com/watch?v=i1pKT65a9TQ&list=PLtFxpnZIgB5Ak6HYcifcV7ulREorKDjYN&index=5"
+                    // "https://www.sermonaudio.com/playpopup.asp?SID=89212233183000"
+              )
     ]
 }
 

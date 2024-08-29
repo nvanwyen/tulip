@@ -39,4 +39,5 @@ struct AppView: View {
 
 #Preview {
     AppView()
+        .preferredColorScheme(.dark)
 }
