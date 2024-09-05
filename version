@@ -5,7 +5,10 @@ fil=${dir}/tulip.xcodeproj/project.pbxproj
 
 if [[ -f ${fil} ]] ; then
 
-    echo "v$(grep MARKETING_VERSION ${fil} | awk '{print $3}' | sed 's/;//g' | head -n 1)"
+    ver="v$(grep MARKETING_VERSION ${fil} | awk '{print $3}' | sed 's/;//g' | head -n 1)"
+    bld="$(grep CURRENT_PROJECT_VERSION ${fil} | awk '{print $3}' | sed 's/;//g' | head -n 1)"
+
+    echo "${ver}.${bld}"
 
 else
 
